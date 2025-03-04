@@ -4,7 +4,7 @@
 - [Data](#data)
 - [Setup environment](#setup-environment)
 - [Example usage](#example-usage)
-- [Detailed description of scripts](#detailed-descriptions-of-scripts)
+- [Detailed description of scripts](#detailed-description-of-scripts)
 
 
 ## Introduction
@@ -71,7 +71,7 @@ To evaluate the influence of, e.g., DNA sequence length within the training data
 To generate plots and statistics based on the results, we can run each of the R scripts within _src/04_results_evaluation_. Again, the required packages will be automatically installed. Remember to set the directory that the results are stored in (the variable is called _base_dir_).   
  
 
-## Detailed descriptions of scripts
+## Detailed description of scripts
 ### Dataset collection
 The scripts in this folder are responsible for collecting a dataset based on a query (e.g., a family). Records will be crawled from BOLD and GENBANK, while images are gathered from BOLD, GBIF, and (in case of _in situ_ images) a local Flora Capture folder. The only scripts that need to be actively started are the main script and the jupyter notebook for manual quality filtering. The main script will ask for the user to check the quality at some point. The jupyter notebook will then need to be used and the main script restarted. There are in total 2 times that the jupyter notebook will be needed.
 
