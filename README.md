@@ -37,7 +37,7 @@ python3 -m pip install -r requirements.txt
 
 For BLAST install BLAST+ v2.15.0. You can either install it into your conda environment (https://anaconda.org/bioconda/blast) or by following the instructions at https://www.ncbi.nlm.nih.gov/books/NBK569861/.
 
-In addition, you will need to have R installed (v4.4.2). The pipeline will install the required packages itself. 
+In addition, you will need to have R installed (v4.3.1). The pipeline will install the required packages itself. 
 
 ## Example usage
 
