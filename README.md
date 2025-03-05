@@ -145,7 +145,7 @@ This script contains a wrapper class that starts both traditional and leave-one-
 This is the main script for training. It first checks if the specific training was already done or is currently handled by another process. Then it sets up the models and model parameters, trains the specified models (separate and fused), saves the models and results, and creates a history plot visualizing information about the accuracy and loss during each epoch.
 
 
-### GLM - ModelOptimier.R
+### GLM - ModelOptimizer.R
 Here, the R script for automatic GLM model simplification resides. It can remove autocorrelations and uses a list of coefficients sorted by their relevance in order to remove not significantly correlated predictors.
 
 
