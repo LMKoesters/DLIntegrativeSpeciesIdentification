@@ -46,10 +46,9 @@ Let us assume we want to train our models on a dataset that contains data of the
 cd src/01_dataset_collection
 python main.py --query 'Asteraceae' --project-dir ${YOUR_PROJECT_DIRECTORY}
 ```
+We will apply manual image filtering (the script will prompt us to do so) by starting a jupyter notebook server and running the code within the second to last cell. 
 > [!WARNING]  
 > DO NOT RUN qc.add_train() the first time you are prompted to manually check the images.
-
-We will apply manual image filtering (the script will prompt us to do so) by starting a jupyter notebook server and running the code within the second to last cell. 
 Don't forget to add your job name, the marker that the pipeline chose during dataset collection and the directory that contains your project in the respective fields before running the cell.
 
 ```bash
